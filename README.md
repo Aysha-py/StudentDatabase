@@ -1,13 +1,3 @@
-# Sample Hardhat Project
-
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, and a script that deploys that contract.
-
-Try running some of the following tasks:
-
-```shell
-npx hardhat help
-npx hardhat test
-REPORT_GAS=true npx hardhat test
-npx hardhat node
-npx hardhat run scripts/deploy.ts
-```
+1. Difference between a view function and a pure function: A The view functions are read-only function, which ensures that state variables cannot be modified after calling them WHILE  pure functions do not read or modify the state variables, which returns the values only using the parameters passed to the function or local variables present in it
+2. difference between a payable and a non payable function: A payable function is a special type of function that can receive ETH
+3. Difference between constant datatype and  immutable datatype
